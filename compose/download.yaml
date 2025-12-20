@@ -16,8 +16,10 @@ services:
     volumes:
       - ${DATA_PATH}/gluetun:/gluetun # optional: caches server list
     ports:
-      # qBittorrent WebUI (will route through VPN)
+      # qBittorrent WebUI
       - 8080:8080
+      # Prowlarr (routed through VPN)
+      - 9696:9696
     restart: unless-stopped
 
   qbittorrent:

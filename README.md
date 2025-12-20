@@ -13,6 +13,8 @@ cp .env.example .env
 
 # Create directories on SSD
 mkdir -p "/Volumes/T7/arr"/{data,downloads,media}
+mkdir -p "/Volumes/T7/arr/data"/{gluetun,qbittorrent,prowlarr,radarr,sonarr}
+mkdir -p "/Volumes/T7/arr/media"/{movies,tv}
 
 # Start VM
 ./scripts/vm-start.sh
