@@ -11,9 +11,8 @@ brew install colima
 # Copy environment file
 cp .env.example .env
 
-# Create directories
-mkdir -p config
-mkdir -p "/Volumes/T7/arr"/{downloads,media}
+# Create directories on SSD
+mkdir -p "/Volumes/T7/arr"/{data,downloads,media}
 
 # Start VM
 ./scripts/vm-start.sh
@@ -84,9 +83,8 @@ Colima VM (2 CPU, 2GB RAM)
 └── Radarr (Movies)
         │
         ▼
-./config/            # App databases (gitignored, on internal drive)
-
 /Volumes/T7/arr/
+├── data/            # App databases, state, settings
 ├── downloads/       # Temporary download location
 └── media/           # Organized library (TV, Movies)
 ```

@@ -14,23 +14,23 @@ services:
       - VPN_PORT_FORWARDING=${VPN_PORT_FORWARDING}
       - TZ=${TZ}
     volumes:
-      - ${CONFIG_PATH}/gluetun:/gluetun # optional: caches server list
+      - ${DATA_PATH}/gluetun:/gluetun # optional: caches server list
     ports:
       # qBittorrent WebUI (will route through VPN)
       - 8080:8080
     restart: unless-stopped
 
-  # qbittorrent:
-  #   image: linuxserver/qbittorrent:latest
-  #   container_name: qbittorrent
-  #   network_mode: "service:gluetun"  # Route through VPN
-  #   environment:
-  #     - PUID=${PUID}
-  #     - PGID=${PGID}
-  #     - TZ=${TZ}
-  #   volumes:
-  #     - ${CONFIG_PATH}/qbittorrent:/config
-  #     - ${DOWNLOAD_PATH}:/downloads
-  #   depends_on:
-  #     - gluetun
-  #   restart: unless-stopped
+  qbittorrent:
+    image: linuxserver/qbittorrent:latest
+    container_name: qbittorrent
+    network_mode: "service:gluetun"
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+    volumes:
+      - ${DATA_PATH}/qbittorrent:/config
+      - ${DOWNLOAD_PATH}:/downloads
+    depends_on:
+      - gluetun
+    restart: unless-stopped
