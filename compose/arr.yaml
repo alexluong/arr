@@ -34,17 +34,17 @@ services:
       - 7878:7878
     restart: unless-stopped
 
-  # sonarr:
-  #   image: linuxserver/sonarr:latest
-  #   container_name: sonarr
-  #   environment:
-  #     - PUID=${PUID}
-  #     - PGID=${PGID}
-  #     - TZ=${TZ}
-  #   volumes:
-  #     - ${DATA_PATH}/sonarr:/config
-  #     - ${DOWNLOAD_PATH}:/downloads
-  #     - ${MEDIA_PATH}/tv:/tv
-  #   ports:
-  #     - 8989:8989
-  #   restart: unless-stopped
+  sonarr:
+    image: linuxserver/sonarr:latest
+    container_name: sonarr
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+    volumes:
+      - ${DATA_PATH}/sonarr:/config
+      - ${DOWNLOAD_PATH}:/downloads
+      - ${MEDIA_PATH}/tv:/tv
+    ports:
+      - 8989:8989
+    restart: unless-stopped
