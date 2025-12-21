@@ -12,13 +12,13 @@ export DOCKER_CONTEXT="colima-arr"
 
 case "$STACKS" in
   download)
-    docker compose -f compose/download.yaml --env-file .env down
+    docker-compose -f compose/download.yaml --env-file .env down
     ;;
   arr)
-    docker compose -f compose/arr.yaml --env-file .env down
+    docker-compose -f compose/arr.yaml --env-file .env down
     ;;
   all)
-    docker compose -f compose/download.yaml -f compose/arr.yaml --env-file .env down
+    docker-compose -f compose/download.yaml -f compose/arr.yaml --env-file .env down
     ;;
   *)
     echo "Usage: down.sh [download|arr|all]"
