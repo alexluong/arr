@@ -8,17 +8,17 @@ STACKS=${1:-"all"}
 
 cd "$PROJECT_DIR"
 
-DOCKER="docker --context colima-arr"
+export DOCKER_CONTEXT="colima-arr"
 
 case "$STACKS" in
   download)
-    $DOCKER compose -f compose/download.yaml --env-file .env down
+    docker compose -f compose/download.yaml --env-file .env down
     ;;
   arr)
-    $DOCKER compose -f compose/arr.yaml --env-file .env down
+    docker compose -f compose/arr.yaml --env-file .env down
     ;;
   all)
-    $DOCKER compose -f compose/download.yaml -f compose/arr.yaml --env-file .env down
+    docker compose -f compose/download.yaml -f compose/arr.yaml --env-file .env down
     ;;
   *)
     echo "Usage: down.sh [download|arr|all]"
