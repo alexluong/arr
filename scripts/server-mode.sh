@@ -11,7 +11,7 @@ case "$MODE" in
     sudo pmset -a displaysleep 10
     sudo pmset -a powernap 0
     sudo pmset -a womp 1
-    sysadminctl -screenLock off
+    defaults write com.apple.screensaver askForPassword -int 0
     echo "Server mode enabled. Machine will stay awake, display sleeps after 10 mins, screen lock disabled."
     ;;
   off)
@@ -21,7 +21,7 @@ case "$MODE" in
     sudo pmset -a displaysleep 10
     sudo pmset -a powernap 1
     sudo pmset -a womp 1
-    sysadminctl -screenLock on
+    defaults write com.apple.screensaver askForPassword -int 1
     echo "Server mode disabled. Normal sleep behavior and screen lock restored."
     ;;
   status)
