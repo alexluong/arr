@@ -11,7 +11,8 @@ case "$MODE" in
     sudo pmset -a displaysleep 10
     sudo pmset -a powernap 0
     sudo pmset -a womp 1
-    echo "Server mode enabled. Machine will stay awake, display sleeps after 10 mins."
+    sysadminctl -screenLock off
+    echo "Server mode enabled. Machine will stay awake, display sleeps after 10 mins, screen lock disabled."
     ;;
   off)
     echo "Disabling server mode (restoring defaults)..."
@@ -20,7 +21,8 @@ case "$MODE" in
     sudo pmset -a displaysleep 10
     sudo pmset -a powernap 1
     sudo pmset -a womp 1
-    echo "Server mode disabled. Normal sleep behavior restored."
+    sysadminctl -screenLock on
+    echo "Server mode disabled. Normal sleep behavior and screen lock restored."
     ;;
   status)
     echo "Current power settings:"
