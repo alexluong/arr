@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-12-24",
+  "paths": {
+    "downloads": "/Volumes/Blue4/arr/downloads",
+    "library": "/Volumes/Blue4/arr/media"
+  },
+  "active_downloads": [],
+  "seeding": [
+    { "name": "Avatar (2009) [EXTENDED] [REPACK] [1080p] [BluRay] [5.1] [YTS.MX]", "type": "movie", "source": "DigitalCore" },
+    { "name": "Avatar The Way Of Water (2022) [BLURAY] [1080p] [BluRay] [5.1] [YTS.MX]", "type": "movie", "source": "DigitalCore" },
+    { "name": "Casablanca.1943.1080p.AMZN.WEB-DL.DDP2.0.H.264-GPRS.mkv", "type": "movie", "source": "DigitalCore" },
+    { "name": "Deadpool.and.Wolverine.2024.1080p.WEB.H264-HugeJackedMan", "type": "movie", "source": "DigitalCore" },
+    { "name": "How.the.Grinch.Stole.Christmas.2000.BluRay.1080p.DD.5.1.x264-BHDStudio.mp4", "type": "movie", "source": "DigitalCore" },
+    { "name": "Life.of.Pi.2012.1080p.BluRay.DD.5.1.X265-Ralphy.mkv", "type": "movie", "source": "DigitalCore" },
+    { "name": "Now.You.See.Me.Now.You.Dont.2025.1080p.AMZN.WEB-DL.DDP5.1.Atmos.H.264-BYNDR.mkv", "type": "movie", "source": "DigitalCore" },
+    { "name": "Office.Space.1999.BluRay.1080p.DDP.5.1.x264-hallowed.mkv", "type": "movie", "source": "DigitalCore" },
+    { "name": "Phineas.and.Ferb.Across.the.2nd.Dimension.2011.1080p.BluRay.x264-REGRET", "type": "movie", "source": "DigitalCore" },
+    { "name": "Phineas.and.Ferb.Mission.Marvel.2013.1080p.DSNP.WEB-DL.DDP5.1.H.264-BLOOM.mkv", "type": "movie", "source": "DigitalCore" },
+    { "name": "Phineas.and.Ferb.S01.1080p.WEB-DL.AAC.2.0.h264-Pikanet128", "type": "tv", "source": "DigitalCore" },
+    { "name": "Phineas.and.Ferb.S02.1080p.WEB-DL.AAC2.0.H264-BTN", "type": "tv", "source": "DigitalCore" },
+    { "name": "Phineas.and.Ferb.S03.1080p.WEB-DL.AAC2.0.H.264-CtrlHD", "type": "tv", "source": "DigitalCore" },
+    { "name": "RoboCop.1987.1080p.BluRay.x264-OFT", "type": "movie", "source": "DigitalCore" },
+    { "name": "RoboCop.2.1990.1080p.BluRay.x264-OFT", "type": "movie", "source": "DigitalCore" },
+    { "name": "RoboCop.3.1993.1080p.BluRay.x264-OFT", "type": "movie", "source": "DigitalCore" },
+    { "name": "Spider-Man.3.2007.Remastered.1080p.BluRay.x264-OFT", "type": "movie", "source": "DigitalCore" },
+    { "name": "Taken.2.2012.Extended.1080p.BluRay.x264-OFT", "type": "movie", "source": "DigitalCore" },
+    { "name": "Taken.3.2014.Extended.1080p.BluRay.x264-OFT", "type": "movie", "source": "DigitalCore" },
+    { "name": "Taxi.Driver.1976.1080p.BluRay.x264-OFT", "type": "movie", "source": "DigitalCore" },
+    { "name": "Terminator.2.Judgment.Day.1991.Extended.1080p.BluRay.x264-OFT", "type": "movie", "source": "DigitalCore" },
+    { "name": "Terminator.3.Rise.of.the.Machines.2003.1080p.BluRay.x264-OFT", "type": "movie", "source": "DigitalCore" },
+    { "name": "The.Bourne.Supremacy.2004.1080p.BluRay.x264-OFT", "type": "movie", "source": "DigitalCore" },
+    { "name": "The.Grey.2011.REMASTERED.1080p.BluRay.x264-GAZER", "type": "movie", "source": "DigitalCore" },
+    { "name": "The.Naked.Gun.2025.1080p.BluRay.x264-OFT", "type": "movie", "source": "DigitalCore" },
+    { "name": "The.Silence.of.the.Lambs.1991.1080p.HMAX.WEB-DL.DDP2.0.H.264-BLOOM.mkv", "type": "movie", "source": "DigitalCore" },
+    { "name": "TRON.Legacy.2010.IMAX.BluRay.1080p.DDP.5.1.x264-hallowed.mkv", "type": "movie", "source": "DigitalCore" }
+  ],
+  "notes": "All seeding items are hardlinked to library - zero extra disk space. Safe to delete from downloads when done seeding."
+}
