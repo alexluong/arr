@@ -103,6 +103,16 @@
       ]
     },
     {
+      "title": "Nathan for You",
+      "seasons": [
+        { "season": 1, "episodes": 8, "expected": 8, "type": "copy", "source": "Unknown" },
+        { "season": 2, "episodes": 8, "expected": 8, "type": "copy", "source": "Unknown" },
+        { "season": 3, "episodes": 8, "expected": 8, "type": "copy", "source": "Unknown" },
+        { "season": 4, "episodes": 7, "expected": 7, "type": "copy", "source": "Unknown" }
+      ],
+      "notes": "Complete series. S04E07 'Finding Frances' is the 2-hour finale."
+    },
+    {
       "title": "Peacemaker",
       "seasons": [
         { "season": 1, "episodes": 8, "expected": 8, "type": "copy", "source": "Unknown" },
@@ -126,6 +136,33 @@
       "seasons": [
         { "season": 1, "episodes": 8, "expected": 8, "type": "copy", "source": "Unknown" }
       ]
+    },
+    {
+      "title": "The Office (US)",
+      "seasons": [
+        { "season": 1, "episodes": 6, "expected": 6, "type": "copy", "source": "Unknown" },
+        { "season": 2, "episodes": 22, "expected": 22, "type": "copy", "source": "Unknown" },
+        { "season": 3, "episodes": 22, "expected": 23, "type": "copy", "source": "Unknown", "missing": ["S03E23"] },
+        { "season": 4, "episodes": 14, "expected": 14, "type": "copy", "source": "Unknown" },
+        { "season": 5, "episodes": 26, "expected": 26, "type": "copy", "source": "Unknown" },
+        { "season": 6, "episodes": 24, "expected": 24, "type": "copy", "source": "Unknown" },
+        { "season": 7, "episodes": 24, "expected": 24, "type": "copy", "source": "Unknown" },
+        { "season": 8, "episodes": 24, "expected": 24, "type": "copy", "source": "Unknown" },
+        { "season": 9, "episodes": 23, "expected": 23, "type": "copy", "source": "Unknown" }
+      ],
+      "notes": "Has Featurettes folder. S3 may be missing finale depending on source count."
+    },
+    {
+      "title": "What We Do in the Shadows",
+      "seasons": [
+        { "season": 1, "episodes": 10, "expected": 10, "type": "copy", "source": "Unknown" },
+        { "season": 2, "episodes": 10, "expected": 10, "type": "copy", "source": "Unknown" },
+        { "season": 3, "episodes": 10, "expected": 10, "type": "copy", "source": "Unknown" },
+        { "season": 4, "episodes": 10, "expected": 10, "type": "copy", "source": "Unknown" },
+        { "season": 5, "episodes": 10, "expected": 10, "type": "copy", "source": "Unknown" },
+        { "season": 6, "episodes": 11, "expected": 11, "type": "copy", "source": "Unknown" }
+      ],
+      "notes": "Complete series (final season)."
     }
   ]
 }
